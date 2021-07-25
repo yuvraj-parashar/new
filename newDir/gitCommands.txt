@@ -1,0 +1,29 @@
+/---------------- First Time --------------//
+
+git init
+
+git add .
+
+git status
+
+git commit -m "Message here"
+
+git remote add origin https://github.com/yuvraj-parashar/aaa.git
+
+git push -u origin main
+
+/---------------- SecondTime --------------//
+
+git add .
+
+git commit -m "Message here"
+
+git push
+
+/--------------------------------------------//
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/yuvraj-parashar/aaa.git
+git branch -M main
+git push -u origin main
